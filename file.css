@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {Background-color: rgb(247, 225, 196);
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+article {
+	margin: 0px 20px auto
+}
+h1 {
+	color: #650038;
+	text-align: center
+}
+h4{
+	color:#590d22;
+	text-align: center
+}
+p{
+	text-align: center
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #650038;
+  display:flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+h3 {
+	color: purple;
+}
+header {
+/*	display:inline;*/
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+	header img{
+		margin: 50px;
+	}
+.center { 
+display: block;
+margin-left: auto;
+margin-right: auto;
+/* padding: 10px; */
+}
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px
+}
+
+#content{
+	text-align: center;
+    grid-template-columns: auto auto auto;
+    grid-column: 2/-2;
+    background-color:  #650038;
+    margin-top: 100px;
+    margin-left: 0;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+main{
+  color: white;
+}
+
+.words{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    padding: 15px;
+}
+
+.words header{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.words section{
+    font-weight: 100;
+}
+
+.subtitle{
+    margin-bottom: 37px;
+    font-size: 20px;
+}
+
+.info{
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 7px;
+    text-align: left;
+    margin: 17px auto;
+}
+.info div{
+    margin: 15px auto 15px 15px;
+}
+
+/*
+.checkbox{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+*/
+
+.box{
+    border: 1px solid rgb #FCECB0;
+    border-radius: 5px;
+    aspect-ratio: 1/1;
+}
+.message{
+    font-size: 12px;
+    margin: auto auto 3px 1px;
+    color: black;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #BC008D #FCECB0;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #FCECB0;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #BC008D;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: white;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.signup{
+	text-align: center
+}
+.warning{
+	color: #E670AB;
+	font-weight: bolder
+}
+.picture{
+  border: medium solid rgba(85, 36, 36, 0.607);
+}
+h2{
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about p{
+  font-size: larger;
+  line-height: 2em;
+  margin-top: 50px;
+}
+
+.left-img{
+  margin-top: 50px;
+}
+.sign_up{
+  background-color: #650038;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.sign_container{
+  max-width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
